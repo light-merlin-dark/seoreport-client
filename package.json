@@ -1,0 +1,49 @@
+{
+  "name": "@seoreport/client",
+  "version": "0.1.0",
+  "description": "Official SEOReport client — TypeScript SDK for REST API and MCP integration.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "sr": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean && tsup src/cli.ts --format esm --outDir dist --no-dts",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "seo",
+    "audit",
+    "report",
+    "api",
+    "mcp",
+    "typescript"
+  ],
+  "author": "SEOReport <hello@seoreport.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightMerlinDark/seoreport-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LightMerlinDark/seoreport-client/issues"
+  },
+  "homepage": "https://seoreport.dev/developers",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
