@@ -36,10 +36,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LightMerlinDark/seoreport-client.git"
+    "url": "git+https://github.com/light-merlin-dark/seoreport-client.git"
   },
   "bugs": {
-    "url": "https://github.com/LightMerlinDark/seoreport-client/issues"
+    "url": "https://github.com/light-merlin-dark/seoreport-client/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://seoreport.dev/developers",
   "devDependencies": {
