@@ -260,6 +260,6 @@ export class SEOReportClient {
    * Return the canonical MCP endpoint URL.
    */
   getMcpEndpoint(): string {
-    return `${this.baseUrl}/mcp`;
+    return `${this.baseUrl}/api/mcp`;
   }
 }
