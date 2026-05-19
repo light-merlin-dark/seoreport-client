@@ -7,7 +7,7 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "sr": "./dist/cli.js"
+    "sr": "dist/cli.js"
   },
   "exports": {
     ".": {
