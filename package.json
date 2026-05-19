@@ -1,6 +1,6 @@
 {
   "name": "@seoreport/client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official SEOReport client — TypeScript SDK for REST API and MCP integration.",
   "type": "module",
   "main": "./dist/index.cjs",
